@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/barcodeInterface-ee3d45a492031fb361abcd14d5e9be70.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/universal-image-loader-1.8.4-with-sources-9ead6364a36bb8deab77331892929f5c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/annotations-d4cca96b67c541e5b1a6957006a843cf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gson-1.7.1-689c3e0bbaea351e1276547a60148485.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/locSDK1.0.1-0d9af30bb933d8a9f5a5ca407dc52a02.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/core-2ae43e4d7954d489247e7dc3ebbffbb9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/baidumapapi-ae07b57222c2a8f5284f66ce57c387d7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/chardet-13b5c774f6289a15051366211fe1ec12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-9fd7f332705d23a854848ea8b9fb6401.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

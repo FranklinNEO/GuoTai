@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f3f3f3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/skin_blue"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/TitleBarText"
+            android:layout_gravity="center"
+            android:paddingLeft="10dip"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/MMBody" >
+
+        <LinearLayout
+            android:id="@+id/input_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_input"
+            android:layout_marginBottom="10dip"
+            android:orientation="vertical" >
+
+            <com.redinfo.red4s.ui.UserEditCancel
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip" >
+            </com.redinfo.red4s.ui.UserEditCancel>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:background="@color/black_20_transparent" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp" />
+
+            <com.redinfo.red4s.ui.PwdEditCancel
+                android:id="@+id/pwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip" >
+            </com.redinfo.red4s.ui.PwdEditCancel>
+        </LinearLayout>
+
+       
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/remember_user_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbox"
+                android:text="记住用户信息"
+                android:textColor="@color/mm_hyper_text"
+                android:textSize="@dimen/Small_TextSize" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_weight="1.0" />
+
+            <Button
+                android:id="@+id/registration_RegButton"
+                style="@style/MMLineActionButton"
+                android:layout_width="90dip"
+                android:layout_height="40dip"
+                android:background="@drawable/login_button"
+                android:text="登录"
+                android:textColor="@color/white" >
+            </Button>
+        </LinearLayout>
+
+        <View style="@style/MMLabelSplit" />
+
+        <View style="@style/MMLabelSplit" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="		  请妥善保存您的账号和密码不要泄露给其他人。"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black_60_transparent"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

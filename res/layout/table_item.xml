@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:padding="6.0dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="地址："
+            android:textAppearance="@style/SingleTableColumnText" />
+
+        <TextView
+            android:id="@+id/mpAddressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:lineSpacingExtra="1.0dip"
+            android:text="江苏瑞德"
+            android:textAppearance="@style/SingleTableContentText" />
+    </LinearLayout>
+
+</LinearLayout>

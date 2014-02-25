@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="@style/ding_manager_item_button_second_text"
+    android:layout_width="wrap_content"
+    android:layout_height="46.599976dip"
+    android:ellipsize="marquee"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip" />

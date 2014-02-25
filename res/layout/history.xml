@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/skin_blue"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/TitleBarText"
+            android:layout_gravity="center"
+            android:paddingLeft="10dip"
+            android:text="@string/app_name" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/title_func"
+            android:maxHeight="80.0dip"
+            android:minHeight="41.0dip"
+            android:minWidth="50.0dip"
+            android:text=" 清除  "
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/BasicTextSize" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/historylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mm_listitem_normal"
+        android:divider="@drawable/reader_item_divider"
+        android:listSelector="@drawable/mm_listitem_normal"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

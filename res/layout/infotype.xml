@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f3f3f3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/skin_blue"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/TitleBarText"
+            android:layout_gravity="center"
+            android:paddingLeft="10dip"
+            android:text="@string/app_name" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/title_func"
+            android:maxHeight="80.0dip"
+            android:minHeight="41.0dip"
+            android:minWidth="50.0dip"
+            android:onClick="onScanButtonClick"
+            android:text=" 下一步  "
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/BasicTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="23dip"
+        android:paddingRight="23dip"
+        android:paddingTop="20dip" >
+
+        <TextView
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="2dip"
+            android:text="所在省"
+            android:textColor="@color/black_50_transparent" />
+
+        <Spinner
+            android:id="@+id/provinceSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="1"
+            android:background="@drawable/popupbox_select_bg"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <View style="@style/MMLabelSplit" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="23dip"
+        android:paddingRight="23dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="2dip"
+            android:text="所在市"
+            android:textColor="@color/black_50_transparent" />
+
+        <Spinner
+            android:id="@+id/citySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="1"
+            android:background="@drawable/popupbox_select_bg"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <View style="@style/MMLabelSplit" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dip"
+        android:paddingLeft="23dip"
+        android:paddingRight="23dip"
+        android:paddingTop="5dip" 
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="2dip"
+            android:text="所在区"
+            android:textColor="@color/black_50_transparent" />
+
+        <Spinner
+            android:id="@+id/countiesSpinner"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="1"
+            android:background="@drawable/popupbox_select_bg"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <View style="@style/MMLabelSplit" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@color/black_20_transparent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <View style="@style/MMLabelSplit" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="23dip"
+        android:paddingRight="23dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="2dip"
+            android:text="备注:"
+            android:textColor="@color/black_50_transparent" />
+
+        <View style="@style/MMLabelSplit" />
+
+        <EditText
+            android:id="@+id/remark_et"
+            android:layout_width="fill_parent"
+            android:layout_height="160dip"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:gravity="left|top"
+            android:inputType="textMultiLine"
+            android:padding="15dip" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/locSDK1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/universal-image-loader-1.8.4-with-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/baidumapapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gson-1.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/barcodeInterface.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/chardet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
